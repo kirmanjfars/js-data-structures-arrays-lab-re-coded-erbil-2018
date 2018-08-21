@@ -2,6 +2,12 @@
 
 const drivers = ["Milo", "Otis", "Garfield"];
 
+function appendDriver(name){
+  
+ return appendDriver= drivers;
+}
+
+
 function destructivelyAppendDriver(name){
   drivers.push(name);
 }
@@ -19,9 +25,5 @@ function destructivelyRemoveFirstDriver(name){
 }
 
 
-function appendDriver(name){
-  
- return appendDriver= drivers;
-}
 
 
