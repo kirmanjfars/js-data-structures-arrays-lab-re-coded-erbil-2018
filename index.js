@@ -18,13 +18,12 @@ function destructivelyRemoveFirstDriver(name){
   drivers.shift(name);
 }
 
-
+const appendDriver;
 
 function appendDriver(name){
- let  appendDriver = appendDriver.push(drivers);
+  appendDriver.push(drivers);
  appendDriver.push(name);
  return appendDriver;
 }
 
-appendDriver('kirmanj');
 
